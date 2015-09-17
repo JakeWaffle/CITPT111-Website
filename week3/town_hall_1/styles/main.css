@@ -1,0 +1,74 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+
+header h1 {
+	color: #800000;
+	text-indent: 30px;
+}
+
+header h2 {
+	font-style: italic;
+	text-indent: 30px;
+}
+
+/* the styles for the section */
+main {
+	clear: left;
+}
+
+main h1 {
+	color: #800000;
+	font-size: 150%;
+}
+
+main h2 {
+	font-size: 120%;
+}
+
+#speakers {
+	font-size: 175%;
+	color: black;
+}
+
+main a:focus, a:hover {
+	font-style: italic;
+}
+
+header .shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
+
+/* the styles for the footer */
+footer p {
+	text-align: center;
+}
+
+
+/* Experiments */
+/* That is not a picture of any cat I know, I found it online: http://www.ziplehnus.net/uploads/2/3/6/8/23687354/6395919.png */
+ul {
+    list-style-image: url('../images/cat_bread.png');
+}
+
+main a {
+	font-size: 120%;
+}
+
+main a:focus, a:hover {
+	color: DeepSkyBlue;
+	border-style: solid;
+    border-color: DeepSkyBlue;
+	cursor: pointer;
+}
+
+main strong {
+	font-size: 110%;
+}
