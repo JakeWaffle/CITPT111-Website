@@ -1,0 +1,50 @@
+3-2 Element Inspector Assignment
+
+
+
+1. The text for "Academic Calendar" belongs to an <a> element.
+
+
+
+2. That <a> element is a child of an <h3> element.
+
+
+
+3. It appears that there is a <div> element at the very bottom of the html file that has a class 
+of "f-clock-tower_img." This class is referenced in the www.lcsc.edu/assets/css/style.css file 
+and the background of it is set to "../img/clock-tower.png."
+
+
+
+4. The header of the /html file has 
+a <div> of the class "h-header_wrapper" and that contains the logo along with the links to the 
+right of the logo. There isn't anything else in that <div> that is supposed to go in-between the 
+logo and links though. I think that the css probably just aligns the <nav> elements to the right 
+of the header.
+
+
+
+5. The Ask Freddie image is represented using an <img> element, inside of an <a> element, inside 
+of a <p> element. I don't really understand what that parent <p> element is really doing though.
+
+
+
+6. The listings under "Events" are all contained within an unordered list (<ul>) tag. Each listing 
+is an <a> tag within an <li> tag basically. 
+
+
+
+7. The search bar is an <input> tag.
+
+
+
+8. The "Bookestore" text in the footer is contained within an <a> tag that's within an <li> element.
+
+
+
+9. The "Contact" link at the bottom of the page is contained within an <li> element. That <li> 
+element is contained within an <ul> element and that is contained within a <nav> element.
+
+
+
+10. The "(c) 2015" is in an <li> element.
